@@ -17,6 +17,7 @@ import subprocess
 import sys
 import textwrap
 import zipfile
+import platform
 
 
 class ParseError(Exception):
